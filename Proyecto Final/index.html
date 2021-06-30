@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+    <script src="operaciones.js"> </script>
+  </head>
+  <body>
+    <div class="contenedor">
+<header>
+  <h1>CONVERSOR DE TEMPERATURAS</h1>
+</header>
+<nav>
+  <h3>Calcula las temperaturas en este sitio web</h3>
+</nav>
+
+<section class="main">
+
+
+ <div id="grados">
+  <p><label for="temperatura">¿Cuál es la temperatura?</label><br>
+    <input required type="number" class="numero" name="temperatura" id="temperatura" size="5" maxlength="3" placeholder="Temperatura a convertir">
+  </p>
+</div>
+
+
+  <div id="cel">
+  <button onclick="temperaturaC()">Convertir de °C a °F</button>
+  </div>
+
+  <div id="fahren">
+  <button onclick="temperaturaF()">Convertir de °F a °C </button>
+  </div>
+
+ <div id="result">
+  <p><label for="resultado">Resultado</label><br>
+    <input readonly type="number" class="numero" name="resultado" id="resultado" size="7" onchange="temperaturaC" onchange="temperaturaF"><br>
+  </p>
+</div>
+
+  <div class="button">
+    <input type="reset" name="limpiar" id="limpiar" value="Limpiar datos" onclick="limpiaValores()">
+  </div>
+
+
+</section>
+
+<div class="form">
+  <aside>
+<p>Estas formulas tambien te pueden ayudar</p>
+<img src="C:\Users\tudio\Desktop\Proyecto Final\imgs/Termometro.png" class="termometro">
+</div>
+  </aside>
+
+<footer>
+<p><b>Visita nuestras redes sociales con un click</b></p>
+   <a href="https://es-la.facebook.com/"><img src="C:\Users\tudio\Desktop\Proyecto Final\imgs/facebook.png" class="facebook"/></a>
+   <a href="https://www.instagram.com/?hl=es-la"><img src="C:\Users\tudio\Desktop\Proyecto Final\imgs/instagram.png" class="instagram"/></a>
+</footer>
+</div>
+  </body>
+</html>

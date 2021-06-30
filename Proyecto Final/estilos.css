@@ -1,0 +1,112 @@
+nav{
+  background-color:#000000 ;
+  color: #ffffff ;
+  padding: 10px;
+  text-shadow: #8474c1 5px 5px 8px ;
+
+}
+h3{
+  text-align: center;
+  font-family: 'Arial';
+}
+body{
+  background-color: #c3a9f6;
+}
+#contenedor{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+header{
+  text-align: center;
+  background-color: #7425bd;
+  color: #ffffff;
+  margin: 10px 0;
+  height: auto;
+  width: 100%;
+  padding:10px;
+  font-family: 'Bahnschrift','cursive';
+  font-size: 20px;
+  box-sizing: border-box;
+}
+#grados{
+  margin-left: 70px;
+  box-sizing: border-box;
+}
+#fahren{
+  margin-left: 160px;
+  margin-top: -21px;
+}
+.main{
+  width: 40%;
+  font-family: 'Lucida Console', monospace;
+  padding: 25px;
+  margin-left: 160px;
+  float: left;
+  box-sizing: border-box;
+}
+.form img{
+  width: 70%;
+  height: auto;
+}
+aside{
+  margin-left: 0px;
+  font-family: 'Comic Sans MS', fantasy;
+  width: 40%;
+  box-sizing: border-box;
+  float: left;
+
+}
+
+footer{
+  clear: both;
+  float: left;
+  margin-top: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  background: #000;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 15px;
+   text-align: center;
+}
+.facebook{
+  height: auto;
+  width: 4%;
+  margin-right: 20px;
+}
+.instagram{
+  height: auto;
+  width: 4%;
+}
+@media screen and (max-width: 800px){
+  body{
+    background: #bd7ced;
+  }
+  .contenedor{
+    width: 100%;
+  }
+    aside{
+      width: 100%;
+  }
+  #fahren{
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  #grados{
+    margin-left: auto;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 700px){
+  .main{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .form img{
+    width: 100%;
+    height: auto;
+  }
+}
